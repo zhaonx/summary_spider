@@ -39,7 +39,7 @@ class SummarySpiderPipeline:
 
                }
         col = self.col_dic.get(item.get('website'))
-        print(dic)
-        # col.insert_one(dic)
+        # print(dic)
+        col.insert_one(dic)
 
 
